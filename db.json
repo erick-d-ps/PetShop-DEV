@@ -1,0 +1,109 @@
+{
+  "products": [
+    { 
+      "id": 1, 
+      "title": "Ração Premier Fórmula para Cães Sênior", 
+      "description": "Indicada para cães sênior, envelhecimento saudável, suporte diferenciado para articulações senis, saúde intestinal, minimiza o tártaro ou cálculo dentário, com a presença do hexametafostato, importante ingrediente para a saúde bucal." ,
+      "price":245,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/racao1.png"
+    },
+    { 
+      "id": 2, 
+      "title": "Ração Royal Canin Maxi para Cães Adultos", 
+      "description": "Quirera de arroz, milho integral moído*, farinha de vísceras de aves, farinha de proteína isolada de suíno, gordura suína, glúten de milho*, polpa de beterraba, óleo de peixe refinado, óleo de soja refinado*, levedura seca de cervejaria, gordura de frango, zeolita, sulfato de condroitina, hidrocloreto de glicosamina, extrato de Marigold, cloreto de sódio (sal comum), cloreto de potássio, carbonato de cálcio, fosfato bicálcico, fosfato monocálcico, fosfato monossódico, vitaminas (A, C, E, D3, B1, B2, B6, B12, PP)",
+      "price": 476.99,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/racao2.png"
+    },
+    { 
+      "id": 3, 
+      "title": "Ração Úmida Premier Orgânico para Cães Adultos", 
+      "description": "Água, carne de aves orgânica (frango - 37%), sementes de chia orgânicas, quinoa orgânica, goma guar, vitamina A, vitamina B12, vitamina C, vitamina D3, vitamina E, vitamina K3, ácido fólico, ácido pantotênico, biotina, cloreto de colina, niacina, piridoxina, riboflavina, tiamina, selênio metionina.",
+      "price": 8.99,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/racao3.png"
+    },
+    { 
+      "id": 4, 
+      "title": "Ração Royal Canin Medium Ageing 15kg", 
+      "description": "Com o passar do tempo, assim como nós, os cães precisam de certos cuidados – e um deles é com a alimentação. Com a Ração Para Cães Idosos Royal Canin, por sua vez, os pets tem uma vida mais saudável e duradoura.",
+      "price": 545.99,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/racao4.png"
+    },
+    { 
+      "id": 5, 
+      "title": "Brinquedo Interativo Pet Games Petball para Cães", 
+      "description": "As brincadeiras são parte super importante na rotina dos nossos amigos de quatro patas. Além de serem muito divertidas, elas contribuem para um desenvolvimento saudável e feliz. Por isso, vale a pena conhecer o Petball, um brinquedinho incrível que deixará os momentos de descontração do seu cãozinho ainda melhores!",
+      "price": 29.99,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/brinq1.png"
+    },
+    { 
+      "id": 6, 
+      "title": "Brinquedo Líder Pet Bola Cravo para Cães - Cores Sortidas", 
+      "description": "As brincadeiras são parte super importante na rotina dos nossos amigos de quatro patas. Além de serem muito divertidas, elas contribuem para um desenvolvimento saudável e feliz. Por isso, vale a pena conhecer o Petball, um brinquedinho incrível.",
+      "price": 1139.00,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/brinq2.png"
+    },
+    { 
+      "id": 7, 
+      "title": "Brinquedo Chalesco Macaco Pelúcia Marrom para Cães", 
+      "description": "Ter um momento de lazer com o seu animal de estimação é fundamental. Seja no parque ou dentro de casa, essa atividade é aproveitada pelo pet em qualquer idade. E os cãezinhos adoram ter um brinquedo para sua diversão. Pensando nisso, a Chalesco desenvolveu um macaquinho de pelúcia.",
+      "price": 34.99,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/brinq3.png"
+    },
+    { 
+      "id": 8, 
+      "title": "Brinquedo Chalesco Pelúcia Polvo Colorido para Cães", 
+      "description": "É extremamente importante que seu bichinho de estimação tenha momentos de lazer e desfrute de muitas brincadeiras. Por isso, oferecer brinquedos como um bicho de pelúcia para cachorro pode ser a melhor escolha! ",
+      "price": 50.00,
+      "cover": "https://sujeitoprogramador.com/wp-content/uploads/2023/06/brinq4.png"
+    },
+    {
+      "id": 9, 
+      "title": "Kit Banho para Cães e Gatos - Shampoo Condicionador Todos os Pelos", 
+      "description": "Composto de ingredientes que hidratam e amaciam o pelo do animal, fortificando com a queratina vegetal, junto com a neutralidade de seu perfume. ",
+      "price": 39.90,
+      "cover": "https://down-br.img.susercontent.com/file/d9f93981e1839c51ec55b3a6d05571fc"
+    },
+    {
+      "id": 10, 
+      "title": "Biscoito Hipoalergênico para Cães com Restrição Alimentar Alles Pet", 
+      "description": "Apresentamos os Biscoitos Hipoalergênicos Alles Pet, desenvolvidos especialmente para cães com restrições alimentares e problemas de pele, mas ideais para todos os cães, já que não possuem contraindicações. Esses biscoitos são formulados com proteína hidrolisada de soja de baixo peso molecular, garantindo uma digestão rápida e evitando reações alérgicas. ",
+      "price": 34.99,
+      "cover": "https://images.tcdn.com.br/img/img_prod/681226/biscoito_hipoalergenico_para_caes_com_restricao_alimentar_alles_pet_879_1_34c0fa88ad32752a3f3ae00d74601611.png"
+    },
+    {
+      "id": 11, 
+      "title": "Caixa De Transporte N4 Pet Gato Caes 15kg Cor Azul", 
+      "description": "A caixa transporte é resistente (plástico injetável polipropileno), sua porta frontal possui trava de segurança. Pode ser utilizada no carro, em viagens aéreas",
+      "price": 60.00,
+      "cover": "https://http2.mlstatic.com/D_NQ_NP_848895-MLU77488827229_072024-O.webp"
+    },
+    {
+      "id": 12, 
+      "title": "Kit 3 Perfumes Para Pet Cachorro e Gatos Linha Pet Shop", 
+      "description": "Proporcionar um aroma fresco e duradouro para seu pet, garantindo conforto e bem-estar para ele e para você. Garanta já o Perfume premio para Cachorro e Gatos Linha Pet Shop proporcione ao seu pet o cuidado que ele merece!🐶",
+      "price": 21.00,
+      "cover": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1yphr2m2rqca4"
+    },
+    {
+     "id": 13, 
+      "title": "Arranhador Para Gato Parede Sisal 50x20 Grande Brinquedo Pet", 
+      "description": "Design Inovador: Feito para gatos que adoram escalar e arranhar, nosso arranhador de parede oferece uma superfície ampla e resistente para satisfazer os instintos naturais do seu felino, fazendo-o brincar, desestressar e afiar as unhas ao mesmo tempo",
+      "price": 34.80,
+      "cover": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lwzttc18645uab"
+    },
+    {
+      "id": 14, 
+      "title": "Bolinha Brinquedo Interativo Novelo de Lã Para Gatos Com Guizo Pet", 
+      "description": "Apresentamos o divertido Brinquedo Bolinha de Novelinho de Lã para Gatos, o companheiro perfeito para satisfazer o instinto de caça e brincadeira do seu felino!",
+      "price": 21.30,
+      "cover": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lto1y66r396191"
+    },
+    {
+      "id": 15, 
+      "title": "Brinquedo para Cachorro Osso Com Barulho", 
+      "description": "Seu melhor amigo anda entediado sem ter o que fazer o dia todo? Esse brinquedo e perfeito pra ele, um barulhinho que seu pet vai amar, feita em vinil macio e perfeito para seu peludo mastigar, desaine perfeito para você brincar de jogar ou puxar o brinquedo com ele.",
+      "price": 29.90,
+      "cover": "https://images.tcdn.com.br/img/img_prod/606696/brinquedo_cachorro_osso_halteres_pata_macio_515_1_26b434a5e7144032f30e086ea3ececf3.jpg"
+    }
+  ]
+}
