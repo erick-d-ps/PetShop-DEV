@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { BsCartPlus } from "react-icons/bs";
+import { useContext } from "react";
+import { cartContext } from '../../contexts'
+
 
 import { api } from "../../services/api";
 
-interface ProdutoProp{
+export interface ProdutoProps{
   id: string;
   title: string;
   description: string;
@@ -12,7 +15,8 @@ interface ProdutoProp{
 }
 
 export function Home() {
-  const [Produto, setProduto] = useState<ProdutoProp[]>([])
+  const { addItemcart,} = useContext(cartContext)
+  const [Produto, setProduto] = useState<ProdutoProps[]>([])
 
 
 useEffect(() => {
@@ -22,6 +26,10 @@ useEffect(() => {
   }
   adicinarProduto();
 }, [])
+  
+function pushItemCart(item: ProdutoProps){
+ addItemcart(item)
+}
 
 
   return (
@@ -47,7 +55,9 @@ useEffect(() => {
                   currency: "BRL"
                 })}
                 </strong>
-              <button className="bg-zinc-900 p1 rounded cursor-pointer ">
+              <button 
+              onClick={() => pushItemCart(item) }
+              className="bg-zinc-900 p1 rounded cursor-pointer ">
                 <BsCartPlus size={20} color="#FFF" />
               </button>
             </div>
