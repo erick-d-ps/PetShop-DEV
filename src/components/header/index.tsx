@@ -12,7 +12,7 @@ export function Header() {
     <header className="w-full px-1 bg-emerald-50">
       <nav className="w-full max-w-7xl h-18 flex items-center justify-between px-5 mx-auto">
         <Link className="font-bold text-3xl" to="/">
-          PetSHop
+          PetSHop-DEV
         </Link>
         <Link className="relative" to="/cart">
         <FiShoppingCart size={30} color="#121212"/>
