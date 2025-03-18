@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import { BsCartPlus } from "react-icons/bs";
 import { useContext } from "react";
 import { cartContext } from '../../contexts'
+import { Link } from "react-router-dom";
 
+import {toast} from 'react-hot-toast'
 
 import { api } from "../../services/api";
 
@@ -28,6 +30,7 @@ useEffect(() => {
 }, [])
   
 function pushItemCart(item: ProdutoProps){
+  toast.success("Produto adicionado no carrinho!")
  addItemcart(item)
 }
 
@@ -43,10 +46,12 @@ function pushItemCart(item: ProdutoProps){
         <div className="grid p-7 grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5">
           {Produto.map((item) =>(
             <section key={item.id} className="p-1 w-full border border-neutral-100  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-neutral-500 ">
+            <Link to={`/products/${item.id}`}>
             <img
               src={item.cover}
               alt={item.title}
             />
+            </Link>
             <p className="font-medium mb-3">{item.title}</p>
             <div className="mb-3 flex gap-3">
               <strong className="text-2xl text-green-700">

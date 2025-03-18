@@ -1,6 +1,8 @@
 import { createContext, ReactNode, useState } from "react";
 import { ProdutoProps } from "../pages/home";
 
+import {toast} from 'react-hot-toast'
+
 interface cartProviderProps {
   children: ReactNode;
 }
@@ -77,7 +79,7 @@ function cartProvider({ children }: cartProviderProps) {
 
   function excuirItem(item: CartProps){
     const remuvItem = cart.filter(produto => produto.id !== item.id )
-
+    toast.success("Produto removido.")
     setCart(remuvItem)
     totalResultCart(remuvItem)
   }
@@ -100,6 +102,7 @@ function cartProvider({ children }: cartProviderProps) {
 
 
   function FinalizeOrder(){
+    toast.success("Compra finalizada!!")
     setCart([])
     return
   } 
